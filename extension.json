@@ -6,7 +6,7 @@
     "en": "Adds an object to to the 'Address' to describe address details using geographic identifiers"
   },
   "documentationUrl": {
-    "en": "https://bitbucket.org/procuriosity/procuriosity_conversions/raw/8f1cab26b5009af9643cb03b92c48ee21e162673/extension.json"
+    "en": "https://github.com/uStudioCompany/ocdsp_addressDetails"
   },
   "compatibility": [
     "1.1"
