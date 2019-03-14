@@ -1,0 +1,44 @@
+{
+  "definitions": {
+    "Address": {
+      "properties": {
+        "addressDetails": {
+          "title": "",
+          "description": "",
+          "type":"object",
+          "$ref": "#/definitions/AddressDetails"
+        }
+      }
+    },
+    "AdressDetails": {
+      "title":"",
+      "description": "",
+      "type": "object",
+      "properties": {
+        "countryDetails": {
+          "descirption": "Country code according to 'iso-alpha2' classifier",
+          "type": "object",
+          "$ref": "#/definitions/Classification"
+        },
+        "regionDetails": {
+          "descirption": "Region code according to 'iso-alpha2' classifier",
+          "type": "object",
+          "$ref": "#/definitions/Classification"
+        },
+        "localityDetails": {
+          "descirption": "Locality code according to either 'UN/LOCDE' or any applicable local classifier",
+          "type": "object",
+          "$ref": "#/definitions/Classification"
+        },
+        "NUTSCode": {
+          "title": "NUTS Code",
+          "description": "The most detailed level of NUTS codes, NUTS 3 should be used and it should be taken from the EU codelist linked from http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
