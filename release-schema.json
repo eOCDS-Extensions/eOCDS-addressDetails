@@ -10,7 +10,7 @@
         }
       }
     },
-    "AdressDetails": {
+    "AddressDetails": {
       "title":"",
       "description": "",
       "type": "object",
