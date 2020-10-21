@@ -15,17 +15,17 @@
       "description": "",
       "type": "object",
       "properties": {
-        "countryDetails": {
+        "country": {
           "descirption": "Country code according to 'iso-alpha2' classifier",
           "type": "object",
           "$ref": "#/definitions/Classification"
         },
-        "regionDetails": {
+        "region": {
           "descirption": "Region code according to 'iso-alpha2' classifier",
           "type": "object",
           "$ref": "#/definitions/Classification"
         },
-        "localityDetails": {
+        "locality": {
           "descirption": "Locality code according to either 'UN/LOCDE' or any applicable local classifier",
           "type": "object",
           "$ref": "#/definitions/Classification"
